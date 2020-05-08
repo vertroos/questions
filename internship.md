@@ -18,8 +18,8 @@ Platform Engineering Code Assessment
 
 
 1. In any language of your choice, write a utility that will translate a
-    hexadecimal string to base64. Here's a test: this string `45766964696e74`
-    should be converted into this string `RXZpZGludA==` .                      
+    hexadecimal string to base64. Here's a test: this string `45766964656E74`
+    should be converted into this string `RXZpZGVudA==` .                      
 2. Tell me the story (with some details) of what happens when I go to my
    browser and type in: "www.python.org" and press enter? What are things 
    you've seen go wrong?
