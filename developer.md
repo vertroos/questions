@@ -19,4 +19,17 @@ def func(testme):
     for z in list:        
         if z.user_name == testme:            
             return true
+            
+     
+```
+
+```javascript
+
+func(testme) {
+    data = axios.get("/users/").then(resp => resp.data);
+    for z of data {
+       if (z.user_name == testme):            
+            return true
+    }
+}
 ```
