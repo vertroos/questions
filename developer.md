@@ -25,11 +25,9 @@ def func(testme):
 
 ```javascript
 
-func(testme) {
-    data = axios.get("/users/").then(resp => resp.data);
-    for z of data {
-       if (z.user_name == testme):            
-            return true
-    }
+async doesUserExist(testme) {
+    const data = await axios.head("/users/", {user_name: testme}); // 500,000
+    const is_user_exists = data.response.some(item => item.user_name == testme);
+    return is_user_exists;
 }
 ```
