@@ -1,6 +1,10 @@
+## Background
+
+1. We will discuss solutions to these problems on the call.
+2. It's okay to look things up or ask a friend, just like a real job.
+
 
 ## Developer Coding Questions
-
 
 1. In any language of your choice, write a utility that will translate a
     hexadecimal string to base64. Here's a test: this string `45766964656E74`
