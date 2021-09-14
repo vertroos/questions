@@ -24,7 +24,7 @@ def func(testme):
 
 func(testme) {
     data = axios.get("/users/").then(resp => resp.data);
-    for z of data {
+    for (var z of data) {
        if (z.user_name == testme):            
             return true
     }
