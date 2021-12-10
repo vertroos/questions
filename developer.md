@@ -22,7 +22,7 @@ def func(testme):
 
 ```javascript
 
-func(testme) {
+function(testme) {
     data = axios.get("/users/").then(resp => resp.data);
     for (var z of data) {
        if (z.user_name == testme):            
